@@ -1,0 +1,66 @@
+#title{
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: -100px;
+  }
+  .body {
+    background-color: #FF8200;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -25px;
+  }
+  
+  #quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 550px;
+    height: 250px;
+    padding: 40px 60px;
+    margin-top: 50px;
+    display: table;
+    background-color: #fff;
+  }
+  .button {
+    font-size: 25px;
+    float: left;
+  }
+  
+  #author {
+    color: #FF8200;
+    margin-left: 175px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  
+  #text {
+    color: #FF8200;
+    font-size: 20px;
+  }
+  
+  #new-quote {
+    float: right;
+    color: #FFF;
+    background-color: #FF8200;
+    border: none;
+    height: 25px;
+  }
+  .buttons {
+    margin-bottom: -15px;
+  }
+  .quote-mark-left {
+    display: inline-block;
+    float: left;
+    color: #FF8200;
+    margin-right: 5px;
+  }
+  #new-quote{
+    height: 35px;
+    width: 100px;
+  }
