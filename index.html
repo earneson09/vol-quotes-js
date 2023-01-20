@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" rel='stylesheet' type='text/css'></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body class="body">
+        <h1 id="title">Vol Quotes</h1>
+        <div class="container-fluid">
+            <div class="card d-flex flex-column">
+                <wrapper id="quote-box" class="text-center justify-content-center">
+                    <i class="quote-mark-left fa fa-quote-left"></i>
+                    <div id="text"></div>
+                    <div id="author"></div>
+                    <button id="new-quote" class="buttons" onClick="generateQuote()">New Quote</button>
+                    <a class="button buttons" id="tweet-quote" title="Tweet This!" target="_blank" href="https://twitter.com/intent/tweet">
+                        <i id="button" class="fab fa-twitter"></i>
+                    </a>
+                </wrapper>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
